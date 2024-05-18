@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    background-color: #4582af;
+    overflow: hidden;
+
+  }
+  
+  .navbar-center {
+    text-align: center;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    color: #85beff;
+  }
+  .login {
+    margin-left: 30em;
+  }
+.navbar {
+    padding: 0px 125px
+}
+.section-top{
+    display: block;
+    width: 100%;
+    padding-left: 180px;
+    background-color: rgb(255, 255, 255);
+
+}
+.section-container {
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 0 2.5%;
+    padding-bottom: 50px;
+
+
+}
+.section-img{
+    padding: 1.5%;
+
+}
+
+.sectio-container {
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 0 2.5%;
+    padding-top: 20px;
+    float: left;
+
+
+}
+
+
+.sectio-containe{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+    padding-left: 180px;
+}
+.section-co{
+    background-color: rgb(255, 255, 255);
+    padding-left: 180px;
+}
+
+p{
+    margin: 0 0 10px;
+}
+.col-xss{
+    display: inline-block;
+    font-weight: 600;
+    width: 25%;
+    float: left;
+    color: gray;
+    line-height: 1.5;
+    padding-left: 180px;
+    margin-bottom: 50px;
+
+}
+.col-xs{
+    display: inline-block;
+    width: 25%;
+    float: left;
+    font-weight: 600;
+    line-height: 1.5;
+    color: gray;
+    padding-left: 180px;
+    margin-bottom: 50px;
+
+}
+.col-x{
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    width: 25%;
+    line-height: 1.5;
+    color: gray;
+    padding-left: 180px;
+    margin-bottom: 50px;
+}
+.logo-img{
+    margin: 0 10px 5px 0;
+}
+*{
+    box-sizing: border-box;
+}
