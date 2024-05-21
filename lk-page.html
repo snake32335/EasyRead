@@ -5,17 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Личный кабинет</title>
     <link rel="stylesheet" href="source/css/lk-page.css">
+    <script src="source/script/script-lk-page.js" defer></script>
 </head>
-<header class="navbar-full">
-    <div class="navbar">
-        <a href="#">
-         Главная страница
-        </a>
-        <a href="#">Книги</a>
-        <a href="#">Личный кабинет</a>
-        <a href="#" class="login">Войти</a>
-</header>
 <body>
+
     <div class="main">
         <h2>Личный кабинет</h2>
         <p>Ваши списки литературы.</p>
@@ -43,8 +36,91 @@
                         Englund Randal L. – San Francisco: Jossey-Bass, 1997. – 253 p.</li>
             </div>
         </details>
-        
-    </div>
-    
+
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="list">
+            <a href=""><img src="source/images-svg/logo.svg" alt=""></a>
+            <!--<div class="dropdown">
+                <button data-path="one" class="dropbtn dropdown-toggle">
+                Кнопка выпадающего списка
+                </button>
+                <ul data-target="one" class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Действие</a></li>
+                <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                </ul>
+            </div>-->
+            <ul id="nav-ul">
+                <div class="main">
+                    <div class="dropdown_list">
+                        <button class="dropdown_button"
+                            onclick="show_list()">
+                            Select course
+                        </button>
+             
+                        <div id="courses_id" class="courses">
+                            <li><a href="">Machine learning</a></li>
+                            <li><a href="">Data science</a></li>
+                            <li><a href="">Data analysis</a></li>
+                            <li><a href="">Data mining</a></li>
+                            <li><a href="">Data warehousing</a></li>
+                        </div>
+                    </div>
+                </div> 
+                <li>Обсуждение</li>
+                <li>Сообщество</li>
+                <li>Моя библиотека</li>
+            </ul>
+            </div>
+            <a href=""><img src="source/images-svg/avatar.svg" alt=""></a>
+        </div>
+    </nav>
+   
+</header>
+<!--<main>
+    <section>
+        <div class="container">
+            
+            <img src="source/images-svg/avatar.svg" alt="">
+
+            <ul>
+                <li>Лента новостей</li>
+                <li>Мой профиль</li>
+                <li>библиотека</li>
+                <li>Остальное</li>
+             
+            </ul>
+            <div class="images">
+   
+            </div>
+        </div>
+    </section>
+    <aside>
+        <ul>
+            <ol>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ol>
+        </ul>
+    </aside>
+    <section>
+        <div class="News">
+            <h1>Все новости</h1>
+            
+        </div>
+    </section>
+</main> 
+-->
+<footer></footer>
 </body>
 </html>
