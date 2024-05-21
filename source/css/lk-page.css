@@ -1,3 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://thumbs.dreamstime.com/b/ультраширокий-абстрактный-синий-фон-с-гладкими-линиями-248353372.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .navbar {
+    background-color: #4582af;
+    overflow: hidden;
+  }
+  
+  .navbar-center {
+    text-align: center;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    color: #85beff;
+  }
+  .login {
+    margin-left: 30em;
+  }
+
 *{
   margin: 0;
   padding: 0;
@@ -12,9 +47,77 @@
   padding: 5px 20px;
 }
 
+.main{
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612785857_44-p-goluboi-siyayushchii-fon-51.jpg);
+  background-color: rgb(202, 202, 202);
+  border-radius: 3%;
+    margin-left: 140px;
+    font-size: 15px;
+    line-height: 1;
+    margin: 40px 130px;
+    border-style: ridge;
+}
 .list {
   display: flex;
   justify-content: center;
+
+}
+
+nav .navbar #nav-ul{
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    margin: 40px 70px;
+}
+b{
+    margin: 70px;
+}
+nav .navbar li{
+  list-style: none;
+  padding-left: 60px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+button{
+  background: none;
+  border: none;
+}
+.dropdown ul{
+  list-style: none;
+}
+
+summary{
+  border-radius: 3%;
+  border-color: #a3a6a8;
+  background-color: #4582af;
+  text-align: center;
+    border: 2px;
+    border-style: solid;
+    width: 35%;
+}
+.block-list{
+  background-color: #a3a6a8;
+  border-radius: 3%;
+  border-style: groove;
+  transform: translate(30px, 10px);
+}
+summary:hover{
+  background-color: #adb9c1;
+}
+
+.dropdown ul a{
+  text-decoration: none;
+}
+.dropdown-menu{
+  display: none;
 }
 
 
