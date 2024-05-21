@@ -16,33 +16,7 @@
   display: flex;
   justify-content: center;
 }
-nav .navbar #nav-ul{
-  display: flex;
-  align-items: center;
-  font-size: 21px;
-}
-nav .navbar li{
-  list-style: none;
-  padding-left: 60px;
-}
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-button{
-  background: none;
-  border: none;
-}
-.dropdown ul{
-  list-style: none ;
-}
-.dropdown ul a{
-  text-decoration: none;
-}
-.dropdown-menu{
-  display: none;
-}
 
 
 .menu-active{
@@ -94,51 +68,37 @@ section .News{
 }
 
 
-.main {
-  height: 400px;
-  padding: 10px;
-}
 
-.dropdown_button {
-  background-color: #0979ad;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  width: 200px;
-  font-family: montserrat;
-  border: 1px solid #ffffff;
-}
 
-.courses {
-  display: none;
+
+.dropdown {
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.courses li {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
   display: block;
-  list-style: none;
-  background-color: rgb(47, 47, 47);
-  font-family: montserrat;
-  border: 1px solid white;
 }
-
-.courses li a {
-  text-decoration: none;
-  color: white;
+/* set the size and position of button on web */
+.button {
+  background: gray;
+  padding: 10px 22px;
+  font-size: 15px;
+  border: none;
+  }
+.button:hover{
+  background: rgb(240, 144, 144);
+}
+/* provide css to background of list items */
+#books{
+  display: none;
+  position: relative;
+  background-color: white;
+  width: 156.5px;
+}
+/* provide css to list items */
+#books a {
   display: block;
+  font-size: 15px;
+   background-color:rgb(240, 144, 144)
+  ;color: black;
+  text-decoration: none;
   padding: 10px;
-}
-
-.courses li:hover {
-  background-color: #0979ad;
-  color: white;
+  text-align: center;
 }
