@@ -2,20 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+.heder-main{
+    background-color: green;
 }
 
 .heder {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 500px;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    gap: 30px;
-    width: 700px;
+    gap: 500px;
+    margin-bottom: 15px;
+    margin-right: 520px;
+    margin-top: 3px;
 }
 
 .dropbtn {
@@ -86,8 +96,8 @@
 }
 
 .line {
-    margin-top: 15px;
-    border-bottom: 3px solid #778899;
+    border-bottom:4px solid #778899;
+    margin-top: 13px;
 }
 
 .line-four {
@@ -142,13 +152,16 @@
 
 .line-three {
     margin-top: 70px;
-    border-bottom: 3px solid #778899;
+    border-bottom: 4px solid #778899;
+}
+.footer-main{
+    background-color: green;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 16px;
     gap: 10px;
 }
 
