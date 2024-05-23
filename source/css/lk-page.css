@@ -1,13 +1,7 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(https://thumbs.dreamstime.com/b/ультраширокий-абстрактный-синий-фон-с-гладкими-линиями-248353372.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
   }
   
   .navbar {
@@ -32,176 +26,39 @@ body {
   .login {
     margin-left: 30em;
   }
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #287233;
-  color: white;
-  padding: 5px 20px;
+    padding: 0px 125px
 }
-
 .main{
-  background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612785857_44-p-goluboi-siyayushchii-fon-51.jpg);
-  background-color: rgb(202, 202, 202);
-  border-radius: 3%;
     margin-left: 140px;
     font-size: 15px;
     line-height: 1;
     margin: 40px 130px;
     border-style: ridge;
 }
-.list {
-  display: flex;
-  justify-content: center;
-
+h2{
+    margin: 35px 70px;
+    font-size: 36px;
 }
-
-nav .navbar #nav-ul{
-  display: flex;
-  align-items: center;
-  font-size: 21px;
-}
-
 p{
-    color: rgb(0, 0, 0);
+    color: grey;
     margin: 40px 70px;
 }
 b{
     margin: 70px;
 }
-nav .navbar li{
-  list-style: none;
-  padding-left: 60px;
+img {
+    display: block;
+    transform: translate(740px, -130px);
+    width: 400px;
 }
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-
+details{
+    line-height: 35px;
+    transform: translate(70px, -290px);
+    width: 54%;
 }
-button{
-  background: none;
-  border: none;
-}
-.dropdown ul{
-  list-style: none;
-}
-
 summary{
-  border-radius: 3%;
-  border-color: #a3a6a8;
-  background-color: #4582af;
-  text-align: center;
     border: 2px;
     border-style: solid;
-    width: 35%;
-}
-.block-list{
-  background-color: #a3a6a8;
-  border-radius: 3%;
-  border-style: groove;
-  transform: translate(30px, 10px);
-}
-summary:hover{
-  background-color: #adb9c1;
-}
-
-.dropdown ul a{
-  text-decoration: none;
-}
-.dropdown-menu{
-  display: none;
-}
-
-
-
-.menu-active{
-  display: block;
-}
-
-section{
-  margin-left: 84;
-  margin-right: 84;
-  display: flex;
-  justify-content: center;
-}
-.container{
-  background-image: url("../images-svg/Background_profile.png");
-  width: 1100px;
-  height: 263px;
-  display: flex;
-
-}
-.container ul{
-  display: flex ;
-  flex-direction: row;
-  background-color: white;
-  margin-top: 263px;
-  width: 1100px;
-  font-size: 20px;
-  background-color: #F2F6EE;
-}
-.container ul li{
-  list-style: none;
-  margin-left: 20px;
-}
-.container img{
-margin-top: 118px;
-margin-left: 50px;
-width: 300px;
-}
-
-aside{
-  display: inline-block;
-  width: 30px;
-}
-
-section .News{
-  
-  display: inline-block;
-  margin-top: 40px;
-  width: 100px;
-}
-
-
-
-
-
-.dropdown {
-  position: absolute;
-  display: block;
-}
-/* set the size and position of button on web */
-.button {
-  background: gray;
-  padding: 10px 22px;
-  font-size: 15px;
-  border: none;
-  }
-.button:hover{
-  background: rgb(240, 144, 144);
-}
-/* provide css to background of list items */
-#books{
-  display: none;
-  position: relative;
-  background-color: white;
-  width: 156.5px;
-}
-/* provide css to list items */
-#books a {
-  display: block;
-  font-size: 15px;
-   background-color:rgb(240, 144, 144)
-  ;color: black;
-  text-decoration: none;
-  padding: 10px;
-  text-align: center;
+    width: 25%;
 }
