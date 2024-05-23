@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -13,11 +14,28 @@ body {
 }
 
 .navbar a {
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    background-color: #4582af;
+    overflow: hidden;
+
+  }
+  
+  .navbar-center {
+    text-align: center;
+  }
+  
+  .navbar a {
+
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 20px 20px;
     text-decoration: none;
+
 }
 
 .navbar a:hover {
@@ -58,6 +76,36 @@ body {
     margin-left: 200px;
     width: 1000px;
     margin-top: 10px;
+=======
+  }
+  .navbar a:hover {
+    color: #85beff;
+  }
+  .login {
+    margin-left: 30em;
+  }
+.navbar {
+    padding: 0px 125px
+}
+.section-top{
+    display: block;
+    width: 100%;
+    padding-left: 180px;
+    background-color: rgb(255, 255, 255);
+
+}
+.section-container {
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 0 2.5%;
+    padding-bottom: 50px;
+
+
+}
+.section-img{
+    padding: 1.5%;
+
+
 }
 
 .sectio-container {
@@ -66,6 +114,7 @@ body {
     padding: 0 2.5%;
     padding-top: 20px;
     float: left;
+
     padding-right: 100px;
     margin-bottom: 15px;
 }
@@ -125,6 +174,27 @@ p {
 }
 
 .col-xss {
+
+
+
+}
+
+
+.sectio-containe{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+    padding-left: 180px;
+}
+.section-co{
+    background-color: rgb(255, 255, 255);
+    padding-left: 180px;
+}
+
+p{
+    margin: 0 0 10px;
+}
+.col-xss{
+
     display: inline-block;
     font-weight: 600;
     width: 25%;
@@ -147,12 +217,20 @@ p {
 }
 
 .col-xs {
+
+    padding-left: 180px;
+    margin-bottom: 50px;
+
+}
+.col-xs{
+
     display: inline-block;
     width: 25%;
     float: left;
     font-weight: 600;
     line-height: 1.5;
     color: gray;
+<
     margin-top: 10px;
     margin-bottom: 50px;
     border-radius: 18px;
@@ -169,12 +247,20 @@ p {
 
 
 .col-x {
+
+    padding-left: 180px;
+    margin-bottom: 50px;
+
+}
+.col-x{
+
     display: inline-block;
     float: left;
     font-weight: 600;
     width: 25%;
     line-height: 1.5;
     color: gray;
+
     margin-bottom: 50px;
     margin-top: 10px;
     border-radius: 18px;
@@ -194,3 +280,14 @@ p {
 * {
     box-sizing: border-box;
 }
+
+    padding-left: 180px;
+    margin-bottom: 50px;
+}
+.logo-img{
+    margin: 0 10px 5px 0;
+}
+*{
+    box-sizing: border-box;
+}
+
